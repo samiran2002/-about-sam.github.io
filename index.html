@@ -1,0 +1,52 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>knowaboutsam</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+	<style>
+		h1 {color:darkviolet;}
+		h2 {color:darkviolet;}
+		
+		img { border : 5px solid #000 }
+	</style>
+	<hr color='black' width='50%'>
+		<h1 align="center"> "Big ideas have small beginning"</h1>
+	
+	<hr color='black' width='50%'>
+	<br><br>
+	<div>
+		<center><img src="me.jpg" class="center" width='30%'></center>
+
+			</div>
+			<br>
+			<hr color='black' width='18%'>
+	<h1 align="center"> About Me</h1>
+	<hr color='black' width='18%'>
+	<ul>
+	<li>
+		Hey guy's here is Samiran or better you can call me Sam.</li>		<li>A newbie in web developer.</li>
+	<li>	 Currently I am an undergrad student at 
+		GITA AUTONOMOUS UNIVERSITY.</li>
+	<li>	I  love to code and sketch.</li>
+	</ul>
+      <hr color='black' width='50%'>
+      <h2 align="center">Here are some of my sketches</h2>
+      <hr color='black' width='50%'>
+      <br>
+<img src=" " id='image'>
+<script type="text/javascript">
+  let image = document.getElementById('image');
+	let images =['image2.jpg','image3.jpg','image4.jpg','image5.jpg']
+ setInterval(function () {
+      let random=Math.floor(Math.random() * 4);
+      image.src = images[random];
+ }, 300);
+</script>
+</header>
+</body>
+</html>

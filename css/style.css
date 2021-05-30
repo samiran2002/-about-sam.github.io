@@ -1,0 +1,17 @@
+header{
+	background-image: url(../1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul li {
+	font-display: gothic-bold;
+	font-size:24;
+}
+img {
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+	transition-timing-function:10s;
+	transition-delay:3000s;
+}
